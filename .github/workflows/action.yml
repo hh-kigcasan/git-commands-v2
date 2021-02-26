@@ -4,9 +4,11 @@ on:
     types: [open]
     branches: 
       - master
+      - develop
   push:
     branches: 
       - master
+      - develop
 
 jobs:
   build:
