@@ -1,8 +1,7 @@
 name: Github Actions Example
-
 on:
   pull_request:
-    type: [open]
+    types: [open]
     branches: 
       - master
   push:
